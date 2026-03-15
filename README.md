@@ -21,7 +21,7 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 Name: KANIMOZHI K N
 Reg No:212225230126
 Slot no:T1-I5
-
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)")) 
 
 ser_time=float(input("Enter the mean inter servie time of Lathe Machine (in secs):")) 
@@ -58,7 +58,7 @@ else:
     print("Warning! Objects overflow will happen in the conveyer") 
 
 print("----------------------------------------")
-
+```
 ## Output :
 
 <img width="698" height="333" alt="image" src="https://github.com/user-attachments/assets/8ab187b3-acbf-49ae-9af4-285777f3879e" />
