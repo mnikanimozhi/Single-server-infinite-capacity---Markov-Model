@@ -23,25 +23,15 @@ Reg No:212225230126
 Slot no:T1-I5
 ```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)")) 
-
 ser_time=float(input("Enter the mean inter servie time of Lathe Machine (in secs):")) 
-
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs):")) 
-
 lam=1/arr_time 
-
 mu=1/(ser_time+Robot_time) 
-
 print("----------------------------------------") 
-
 print("Single Server with Infinite Capacity-(M/M/1):(00/FIFO)") 
-
 print("----------------------------------------") 
-
 print("The mean arrival rate per second: %0.2f "%lam) 
-
 print("The mean service rate per second: %0.2f "%mu) 
-
  if(lam<mu): 
     Ls=lam/(mu-lam) 
     Lq=Ls-lam/mu 
@@ -52,11 +42,9 @@ print("The mean service rate per second: %0.2f "%mu)
     print("Average time spent by an object in the system: %0.2f"%Ws) 
     print("Average time spent by an object in the conveyer: %0.2f"%Wq) 
     print("Probability that the system is busy: %0.2f "%(lam/mu)) 
-    print("Probability that the system is empty: %0.2f "%(1-lam/mu)) 
-
+    print("Probability that the system is empty: %0.2f "%(1-lam/mu)
 else: 
     print("Warning! Objects overflow will happen in the conveyer") 
-
 print("----------------------------------------")
 ```
 ## Output :
